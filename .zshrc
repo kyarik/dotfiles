@@ -21,7 +21,7 @@ alias l='ls -CF'
 alias nx='yarn nx'
 
 # Custom prompt
-PS1=" %B%F{50}%1~%f%b %(?.%F{green}%B✓%b.%F{red}%B✗%?%b)%f "
+PS1=" %B%F{50}%1~%f%b %(?.%F{green}%B✓%b.%F{red}%B✗%b)%f "
 
 # Start tmux
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
