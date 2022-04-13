@@ -18,7 +18,7 @@
   rb = rebase --origin
   rc = rebase --continue
   ri = rebase -i
-  s = stash
+  s = !git aa && git stash
   sa = stash apply
   sp = stash pop
   st = status
